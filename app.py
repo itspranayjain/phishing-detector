@@ -20,12 +20,12 @@ def predict():
     prob = model.predict_proba([features])[0][1]
 
     # Decision logic
-    if prob < 0.3:
-        result = "✅ Safe (Low Risk)"
-    elif prob < 0.7:
-        result = "⚠️ Suspicious"
+    if prob < 0.4:
+     result = "✅ Safe (Low Risk)"
+    elif prob < 0.75:
+     result = "⚠️ Suspicious"
     else:
-        result = "❌ Phishing (High Risk)"
+     result = "❌ Phishing (High Risk)"
 
     return render_template("index.html",
                            prediction_text=result,
