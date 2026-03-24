@@ -41,9 +41,9 @@ A Machine Learning-based web application that detects whether a given URL is Saf
 
 ## 📸 Screenshots
 
-![Home](images/homepage.png)
-![Safe](images/safe.png)
-![Phishing](images/phishing.png)
+![Home](images/capture_20260324225228129.bmp)
+![Safe](images/capture_20260324233312682.bmp)
+![Phishing](images/capture_20260324225026468.bmp)
 
 ## 📁 Project Structure
 
