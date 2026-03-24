@@ -40,3 +40,14 @@ A Machine Learning-based web application that detects whether a given URL is Saf
 ---
 
 ## 📁 Project Structure
+
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/itspranayjain/phishing-detector.git
+cd phishing-detector
+pip install -r requirements.txt
+python app.py
